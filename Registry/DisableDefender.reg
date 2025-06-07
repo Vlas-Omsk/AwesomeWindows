@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; https://www.ghacks.net/2015/10/25/how-to-disable-windows-defender-in-windows-10-permanently/
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:1
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection]
+"DisableRealtimeMonitoring"=dword:1
