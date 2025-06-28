@@ -1,13 +1,13 @@
 @echo off
 setlocal enabledelayedexpansion
 
-rem Config
+:: Config
 set "absoluteTonemapAccuracyFilters=eq=brightness=0.5:contrast=0.5,colorchannelmixer=rr=0.5:gg=0.5:bb=0.5"
 set "relativeTonemapAccuracyFilters=eq=gamma=0.5:brightness=0.4:contrast=1.4:saturation=1.9"
 set "anyTargetH264Codec=h264_nvenc"
 set "hwaccel=cuda"
 
-rem Options
+:: Options
 set "ffmpegArgsPosition=before"
 set "beforeFfmpegArgs="
 set "betweenFfmpegArgs="
