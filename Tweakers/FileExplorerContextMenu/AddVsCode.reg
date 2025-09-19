@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Open with VS Code]
+@="Edit with VS Code"
+"Icon"="%USERPROFILE%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe,0"
+
+[HKEY_CLASSES_ROOT\*\shell\Open with VS Code\command]
+@="\"%USERPROFILE%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\vscode]
+@="Open Folder as VS Code Project"
+"Icon"="\"%USERPROFILE%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\",0"
+
+[HKEY_CLASSES_ROOT\Directory\shell\vscode\command]
+@="\"%USERPROFILE%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\vscode]
+@="Open Folder as VS Code Project"
+"Icon"="\"%USERPROFILE%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\",0"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\vscode\command]
+@="\"%USERPROFILE%\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%V\""
